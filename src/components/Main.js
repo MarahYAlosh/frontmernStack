@@ -33,7 +33,7 @@ export const Main = () => {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getName").then(({ data }) => {
+    axios.get("https://mernstackquiz-5.onrender.com/getName").then(({ data }) => {
       setdetailStudent(data);
     });
   }, []);
@@ -43,7 +43,7 @@ export const Main = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000")
+      .get("https://mernstackquiz-5.onrender.com")
       .then((res) => {
         if (res.data === "Success") {
           setSuc("Successed OK");
