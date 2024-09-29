@@ -17,7 +17,7 @@ export const TeacherPage = () => {
     e.preventDefault();
     
     await axios
-      .post("http://localhost:5000/addTeacher", { name, email, password })
+      .post("https://mernstackquiz-5.onrender.com/addTeacher", { name, email, password })
       .then((res) => console.log('yes'))
       .catch((err) => alert(err));
       setToggle(true)
@@ -26,7 +26,7 @@ export const TeacherPage = () => {
   axios.defaults.withCredentials = true;
   useEffect(() => {
     axios
-      .get("http://localhost:5000/teacher")
+      .get("https://mernstackquiz-5.onrender.com/teacher")
       .then((res) => {
         if (res.data === "Success") {
           setSuc("Successed OK");
