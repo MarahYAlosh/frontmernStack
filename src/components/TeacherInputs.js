@@ -41,7 +41,7 @@ export const TeacherInputs = () => {
       !allAnswer.includes(undefined)
     ) {
    
-      axios.post(`http://localhost:5000/api/${state.level}`, {
+      axios.post(`https://mernstackquiz-5.onrender.com/api/${state.level}`, {
         allQuestion,
         allAnswer,
       });
