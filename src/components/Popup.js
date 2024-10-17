@@ -13,7 +13,7 @@ export const Popup = ({open,setOpen}) => {
     e.preventDefault();
     
     await axios
-      .post("http://localhost:5000/addTeacher", { name, email, password })
+      .post("https://mernstackquiz-8.onrender.com/addTeacher", { name, email, password })
       .then((res) => console.log('yes'))
       .catch((err) => alert(err));
       setToggle(true)
@@ -22,7 +22,7 @@ export const Popup = ({open,setOpen}) => {
   axios.defaults.withCredentials = true;
   useEffect(() => {
     axios
-      .get("http://localhost:5000/teacher")
+      .get("https://mernstackquiz-8.onrender.com/teacher")
       .then((res) => {
         if (res.data === "Success") {
           setSuc("Successed OK");
