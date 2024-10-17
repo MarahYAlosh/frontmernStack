@@ -27,7 +27,7 @@ export const useFetchQuestion = (index, level) => {
         // );
 
         const aa = await getServerData(
-          `http://localhost:5000/api/${level}`,
+          `https://mernstackquiz-8.onrender.com/api/${level}`,
           (data) => data.q
         );
         const { questions, answers } = aa[index];
