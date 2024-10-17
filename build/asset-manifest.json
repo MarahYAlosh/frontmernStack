@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/frontmernStack/static/css/main.c1f959de.css",
+    "main.js": "/frontmernStack/static/js/main.1cf50072.js",
+    "static/media/reg.png": "/frontmernStack/static/media/reg.33b0e491fd18657ac630.png",
+    "static/media/output-onlinepngtools (13).png": "/frontmernStack/static/media/output-onlinepngtools (13).99602426392e14e0dc4f.png",
+    "static/media/output-onlinepngtools (11).png": "/frontmernStack/static/media/output-onlinepngtools (11).34c8c1dd7302d99f923e.png",
+    "static/media/output-onlinepngtools (12).png": "/frontmernStack/static/media/output-onlinepngtools (12).1b51d9e68d8fc5c0aa75.png",
+    "static/media/bglo.png": "/frontmernStack/static/media/bglo.c556e275e979e82e952a.png",
+    "static/media/login.png": "/frontmernStack/static/media/login.098b5afa18fe67f649d6.png",
+    "static/media/output-onlinepngtools (7).png": "/frontmernStack/static/media/output-onlinepngtools (7).bf9f89cc84dbfeda673a.png",
+    "static/media/bgRes.png": "/frontmernStack/static/media/bgRes.c28316e5f13a56b99fbc.png",
+    "static/media/output-onlinepngtools (6).png": "/frontmernStack/static/media/output-onlinepngtools (6).24807826ff031cc0a385.png",
+    "static/media/output-onlinepngtools (5).png": "/frontmernStack/static/media/output-onlinepngtools (5).f2a4c60f32066243be70.png",
+    "static/media/teacher.png": "/frontmernStack/static/media/teacher.9deaf2de35f5bc15d358.png",
+    "static/media/ففف": "/frontmernStack/static/media/ففف.3d36faf6e72297bed5b0",
+    "static/media/onlineEdu.png": "/frontmernStack/static/media/onlineEdu.ede508885f4b17d38fbc.png",
+    "static/media/lock.png": "/frontmernStack/static/media/lock.82828f62d1ade6e8c2b9.png",
+    "index.html": "/frontmernStack/index.html",
+    "main.c1f959de.css.map": "/frontmernStack/static/css/main.c1f959de.css.map",
+    "main.1cf50072.js.map": "/frontmernStack/static/js/main.1cf50072.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1f959de.css",
+    "static/js/main.1cf50072.js"
+  ]
+}
