@@ -12,7 +12,7 @@ export const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/register", {
+      .post("https://mernstackquiz-8.onrender.com/register", {
         name,
         email,
         password,
