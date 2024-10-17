@@ -34,7 +34,7 @@ export const Main = () => {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getName").then(({ data }) => {
+    axios.get("https://mernstackquiz-8.onrender.com/getName").then(({ data }) => {
       setdetailStudent(data);
 
       // console.log(detailStudent);
