@@ -22,7 +22,7 @@ export const usePublishResult = (resultData) => {
     try {
       if (result !== [] && !username) throw new Error("Couldn't get Result");
       const rr = await postServerData(
-        "http://localhost:5000/api/result",
+        "https://mernstackquiz-8.onrender.com/api/result",
         resultData,
         (data) => data.r
       );
