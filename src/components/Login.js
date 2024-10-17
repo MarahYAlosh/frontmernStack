@@ -15,7 +15,7 @@ export const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/login", {
+      .post("https://mernstackquiz-8.onrender.com/login", {
         email,
         password,
       })
