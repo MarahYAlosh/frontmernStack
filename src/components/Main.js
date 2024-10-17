@@ -60,7 +60,7 @@ export const Main = () => {
     //rows.filter(({ brands }) => wantedBrands.includes(brands)
 
     axios
-      .get("http://localhost:5000")
+      .get("https://mernstackquiz-8.onrender.com")
       .then((res) => {
         if (res.data === "Success") {
           setSuc("Successed OK");
