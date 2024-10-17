@@ -37,13 +37,13 @@ export const Quiz = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/${levels[level]}`).then(({ data }) => {
+    axios.get(`https://mernstackquiz-8.onrender.com/api/${levels[level]}`).then(({ data }) => {
       setdataLength(data.q.length);
     });
   }, []);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/${levels[level]}`).then(({ data }) => {
+    axios.get(`https://mernstackquiz-8.onrender.com/api/${levels[level]}`).then(({ data }) => {
       setdataAnswer(data ? data.q[index].answers[trace] : 0);
     });
   }, [trace]);
